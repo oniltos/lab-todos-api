@@ -9,6 +9,7 @@
 
 <h2>⚙️ Used Technologies</h2>
 <ul>
+  <li>NodeJS</li>
   <li>ExpressJS</li>
   <li>MongoDB</li>
   <li>Mongoose</li>
@@ -25,6 +26,7 @@ https://user-images.githubusercontent.com/111170704/215362461-7a86a183-b216-4d3f
 
 
 <h2>💡 Learn More</h2>
+<p>To learn more about NodeJS, check out the <a href="https://nodejs.org/en/docs/" >NodeJS documentation</a>.</p>
 <p>To learn more about ExpressJS, check out the <a href="https://expressjs.com/en/5x/api.html#express" >ExpressJS documentation</a>.</p>
 <p>To learn more about MongoDB, check out the <a href="https://www.mongodb.com/docs/atlas/" >MongoDB documentation</a>.</p>
 <p>To learn more about Mongoose, check out the <a href="https://mongoosejs.com/docs/guide.html" >Mongoose documentation</a>.</p>
@@ -34,7 +36,7 @@ https://user-images.githubusercontent.com/111170704/215362461-7a86a183-b216-4d3f
 <p>To learn more about HTML and CSS, check out the <a href="https://developer.mozilla.org/pt-BR/" >MDN Web Docs</a>.</p>
 
 
-<h2>🧑🏼‍🦰 About Developer</h2>
+<h2>🧑🏼‍🦰 About the Developer</h2>
 <p>Brazilian, animal lover, passionate about the Canadian weather and an ongoing web developer. After gaining enormous experience and skills in project management and quality reliability testing in the electronics sector working for 13 years at Foxconn manufacturing Apple products, I decided to accept the challenge of restarting my life in Canada by venturing into a new college and learning web development from the scratch. Currently living in Victoria, BC, I love to hike, discover new places and create new memories with every new adventure. I am always looking for continuous improvement from the most superficial details to the final project delivery.</p>
 
 
