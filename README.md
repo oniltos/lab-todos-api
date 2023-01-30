@@ -1,4 +1,4 @@
-<span>At the end of the page, you can find the original guidelines for this lab.</span>
+<span>At the end of the page, you can find the original guidelines for this lab prepared by Ironhack instructors.</span>
 
 <h1 align="center">✅ To Do List ✅</h1>
 
