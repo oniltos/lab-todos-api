@@ -1,3 +1,45 @@
+<span>At the end of the page, you can find the original guidelines for this lab.</span>
+
+<h1 align="center">✅ To Do List ✅</h1>
+
+<h2>💻 Overview</h2>
+
+<p>Application created to apply the initial back-end knowledge.</p>
+
+
+<h2>⚙️ Used Technologies</h2>
+<ul>
+  <li>ExpressJS</li>
+  <li>MongoDB</li>
+  <li>Mongoose</li>
+  <li>ReactJS</li>
+  <li>Bootstrap</li>
+  <li>HTML</li>
+  <li>CSS</li>
+</ul>
+
+
+<h2>▶️ Application's Presentation ⏸</h2>
+  
+https://user-images.githubusercontent.com/111170704/215362461-7a86a183-b216-4d3f-840e-d921d5201d2a.mov
+
+
+<h2>💡 Learn More</h2>
+<p>To learn more about ExpressJS, check out the <a href="https://expressjs.com/en/5x/api.html#express" >ExpressJS documentation</a>.</p>
+<p>To learn more about MongoDB, check out the <a href="https://www.mongodb.com/docs/atlas/" >MongoDB documentation</a>.</p>
+<p>To learn more about Mongoose, check out the <a href="https://mongoosejs.com/docs/guide.html" >Mongoose documentation</a>.</p>
+<p>To learn React, check out the <a href="https://reactjs.org/" >React documentation</a>.</p>
+<p>You can learn more in the <a href="https://create-react-app.dev/docs/getting-started/" target="_blank">Create React App documentation</a>.</p>
+<p>To learn more about Bootstrap, check out the <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" >Bootstrap</a>.</p>
+<p>To learn more about HTML and CSS, check out the <a href="https://developer.mozilla.org/pt-BR/" >MDN Web Docs</a>.</p>
+
+
+<h2>🧑🏼‍🦰 About Developer</h2>
+<p>Brazilian, animal lover, passionate about the Canadian weather and an ongoing web developer. After gaining enormous experience and skills in project management and quality reliability testing in the electronics sector working for 13 years at Foxconn manufacturing Apple products, I decided to accept the challenge of restarting my life in Canada by venturing into a new college and learning web development from the scratch. Currently living in Victoria, BC, I love to hike, discover new places and create new memories with every new adventure. I am always looking for continuous improvement from the most superficial details to the final project delivery.</p>
+
+
+<h1>ORIGINAL INSTRUCTIONS</h1>
+
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
 # Todos Api
