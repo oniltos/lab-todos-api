@@ -4,11 +4,11 @@ import connectDB from './config/db.connection.js'
 import ToDo from './models/Todo.model.js'
 
 const PORT = 3001
-connectDB()
 const app = express()
+connectDB()
 
-app.use(express.json())
 app.use(cors())
+app.use(express.json())
 
 app.get('/', (req, res) => {
   res.send('ToDo API working properly!')
@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 
 app.get('/todos', async (req, res) => {
   try {
-    const toDoList = await ToDo.find({})
+    const toDoList = await ToDo.find()
     return res.status(200).json(toDoList)
   } catch(error) {
     console.log(error)
@@ -63,8 +63,8 @@ app.put('/todos/:id', async (req, res) => {
 })
 
 app.delete('/todos/:id', async (req, res) => {
+  const { id } = req.params
   try {
-    const { id } = req.params
     await ToDo.findOneAndDelete({_id: id})
     res.status(204).json()
   } catch (error) {
