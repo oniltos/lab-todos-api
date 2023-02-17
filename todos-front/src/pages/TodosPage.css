@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  margin: 20px 0;
+}
+
+#inputGroup-sizing-default {
+  width: 100px;
+}
+
+.input-group-text {
+  justify-content: center;
+}
+
+.form {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid lightgray;
+  width:350px;
+  padding-left: 10px;
+}
+
+.form-group {
+  display: grid;
+  gap: 3px;
+}
+
+.TodoPage {
+  display: grid;
+  place-items: center;
+}
+
+.check {
+  margin-right: 8px;
+}
+
+.todo-list {
+  text-align: left;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.form-checkbox {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.todo{
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-btn {
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  color: white;
+  font-weight: 700;
+  background-color: rgb(187, 45, 58);
+}
+
+.date {
+  background-color: lightgray;
+  padding: 0 4px;
+  border-radius: 5px;
+}
+
+.dueDate {
+  font-weight: 700;
+}
+
+.checkbox-todo-date {
+  display: flex;
+}
+
+.logout {
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  font-weight: 600;
+  width: 100px;
+  height: 30px;
+  margin-top: 12px;
+}

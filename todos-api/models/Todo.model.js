@@ -11,6 +11,10 @@ const toDoSchema = new Schema({
         type: Boolean,
         default: false
     },
+    toBeCompletedAt: {
+        type: String,
+        required: true
+    },    
     user: {
         type: Schema.Types.ObjectId,
         ref: 'User'

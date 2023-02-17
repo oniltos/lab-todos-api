@@ -1,17 +1,17 @@
 import './App.css';
-import AllToDosPage from './pages/AllToDosPage';
-import EditToDo from './pages/ToDoEditPage';
-import { Routes, Route } from 'react-router-dom';
-
+import { Routes, Route } from 'react-router-dom'
+import TodosPage from './pages/TodosPage';
+import SignUpPage from './pages/SignUpPage';
+import HomePage from './pages/HomePage'
 
 function App() {
   return (
     <div className="App">
-     
-     <Routes>
-      <Route path='/' element={ <AllToDosPage /> }/>
-      <Route path='/:id' element={ <EditToDo /> }/>
-     </Routes>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/todos' element={<TodosPage />} />
+        <Route path='/sign-up' element={<SignUpPage />} />
+      </Routes>
     </div>
   );
 }

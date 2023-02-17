@@ -1,20 +1,30 @@
 import axios from "axios";
-import { useState } from "react";
-import './addToDo.css'
+import { useState } from 'react'
 
-const APIUrl = 'http://localhost:3001/todos'
 
 const AddToDo = () => {
+  const [todos, setTodos] = useState([])
   const [title, setTitle] = useState('')
 
-  const handleSubmit = () => {
-    const newToDo = {title}
+  const handleSubmit = e => {
+    e.preventDefault()
 
-    axios.post(APIUrl, newToDo)
-      .then(response => {
-        setTitle('')
-      }).catch(error => console.log(error))
+    const token = localStorage.getItem('token')
+    const headers = {
+    'Authorization': `Bearer ${token}`
   }
+
+    const newTodo = { title: title, completed: false }
+    setTodos([...todos, newTodo])
+    setTitle('')
+
+    axios.post(`${process.env.REACT_APP_API_URL}/todos`, { headers })
+      .then(response => {
+        setTodos("")
+      }).catch(error => console.log(error))
+}
+
+
 
   return (
     <div className="addToDo">
